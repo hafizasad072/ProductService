@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
+  <diagram name="MultiTenantAuth" id="xFdXAr0RubcsY4j1fYDj">
+    <mxGraphModel dx="1437" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-7" edge="1" parent="1" source="mgpj_DhQKh_zugEHlxf0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" target="mgpj_DhQKh_zugEHlxf0-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" value="React UI&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="160" x="365" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-8" edge="1" parent="1" source="mgpj_DhQKh_zugEHlxf0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" target="mgpj_DhQKh_zugEHlxf0-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" value="Products API" vertex="1">
+          <mxGeometry height="60" width="160" x="365" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-10" edge="1" parent="1" source="mgpj_DhQKh_zugEHlxf0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" target="mgpj_DhQKh_zugEHlxf0-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-11" edge="1" parent="1" source="mgpj_DhQKh_zugEHlxf0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" target="mgpj_DhQKh_zugEHlxf0-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" value="Message Bus (Kafka)" vertex="1">
+          <mxGeometry height="60" width="160" x="365" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" value="payments Service" vertex="1">
+          <mxGeometry height="60" width="150" x="370" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" value="Inventory Service" vertex="1">
+          <mxGeometry height="60" width="150" x="585" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;labelBackgroundColor=none;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" value="Orders Service" vertex="1">
+          <mxGeometry height="60" width="160" x="145" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-12" edge="1" parent="1" source="mgpj_DhQKh_zugEHlxf0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" target="mgpj_DhQKh_zugEHlxf0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" value="REST API (make http reuests using&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Axios)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="445" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" value="Publishes Event" vertex="1">
+          <mxGeometry height="30" width="90" x="455" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-16" edge="1" parent="1" style="endArrow=none;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;shape=link;width=-2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint y="40" as="sourcePoint" />
+            <mxPoint x="850" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgpj_DhQKh_zugEHlxf0-17" edge="1" parent="1" style="endArrow=none;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;shape=link;width=-2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint y="590" as="sourcePoint" />
+            <mxPoint x="850" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
